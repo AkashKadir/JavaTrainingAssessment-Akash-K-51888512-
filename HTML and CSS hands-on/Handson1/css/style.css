@@ -1,0 +1,100 @@
+body {
+  margin: 0px;
+}
+.main_page,
+h1,
+h2,
+h4,
+.wedding_invitation,
+.corporate,
+.socialgathering {
+  text-align: center;
+}
+.main_page h1,
+.wedding_invitation h1,
+.corporate h1,
+.socialgathering h1 {
+  font-family: "Secular One", sans-serif;
+  word-spacing: 5px;
+}
+#image1,
+#image2,
+#image3 {
+  height: 350px;
+  width: 450px;
+  box-shadow: 1px 2px 8px rgb(200, 13, 13);
+}
+.main_page {
+  line-height: 30px;
+}
+.main_page a {
+  font-family: "Baloo Tammudu 2", cursive;
+}
+.main_page hr {
+  width: 80%;
+}
+#anchor1,
+#anchor2,
+#anchor3 {
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+.wedding_invitation img,
+.corporate img,
+.socialgathering img {
+  height: 350px;
+  width: 450px;
+}
+
+/* Wedding */
+.wedding_invitation,
+.wedding_invitation_para {
+  font-family: "Baloo Tammudu 2", cursive;
+  line-height: 20px;
+}
+.wedding_invitation_para {
+  font-size: 18px;
+  word-spacing: 3px;
+}
+.wedding_invitation h2 {
+  font-size: 25px;
+}
+.wedding_invitation h4 {
+  font-size: 20px;
+}
+
+/* Corporate */
+.corporate,
+.corporate_para {
+  font-family: "Baloo Tammudu 2", cursive;
+  line-height: 20px;
+}
+.corporate_para {
+  font-size: 18px;
+  word-spacing: 3px;
+}
+.corporate h2 {
+  font-size: 25px;
+}
+.corporate h4 {
+  font-size: 20px;
+}
+/* Corporate */
+.socialgathering {
+  font-family: "Baloo Tammudu 2", cursive;
+  line-height: 20px;
+}
+.corporate_para {
+  font-size: 18px;
+  word-spacing: 3px;
+}
+.socialgathering h2 {
+  font-size: 25px;
+}
+.socialgathering h4 {
+  font-size: 20px;
+}

@@ -1,0 +1,28 @@
+body {
+  margin: 0px;
+}
+header h1 {
+  text-align: center;
+  font-family: "Secular One", sans-serif;
+}
+nav {
+  font-family: "Baloo Tammudu 2", cursive;
+  position: relative;
+  background-color: cadetblue;
+  text-align: center;
+  height: 65px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  font-size: 18px;
+}
+.vertical {
+  background-color: black;
+  height: 35px;
+  width: 3px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
