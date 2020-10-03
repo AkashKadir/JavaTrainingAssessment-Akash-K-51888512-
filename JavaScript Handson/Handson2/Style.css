@@ -1,0 +1,84 @@
+body {
+  margin: 0px;
+  background-color: #e2f3f5;
+}
+#AddDisplay {
+  line-height: 40px;
+  border: 1px solid #22d1ee;
+  width: 40%;
+  text-align: center;
+  margin: 0 auto;
+  height: 300px;
+  background-color: #3d5af1;
+  position: relative;
+  top: 100px;
+  box-shadow: 4px 4px 8px #22d1ee;
+}
+#add,
+#display {
+  position: relative;
+  font-family: "Raleway", sans-serif;
+  padding: 3px;
+  margin: 10px;
+  top: 15px;
+  border-radius: 5px;
+  color: #0e153a;
+}
+#add {
+  width: 120px;
+}
+#display {
+  width: 120px;
+}
+#eventName {
+  position: relative;
+  margin: 0px auto;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  width: 170px;
+  height: 22px;
+  top: 8px;
+  border-radius: 5px;
+  color: #0e153a;
+}
+#successMessage {
+  position: relative;
+  top: 18px;
+  color: #0e153a;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+label {
+  font-size: 14px;
+  right: 18px;
+  top: 15px;
+  color: #e2f3f5;
+  position: relative;
+  font-family: "Raleway", sans-serif;
+}
+#AddDisplay h2 {
+  position: relative;
+  color: #e2f3f5;
+  left: 0px;
+  right: 0px;
+  top: 15px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+#result {
+  width: 30%;
+  position: relative;
+  margin: 0px auto;
+  top: 120px;
+}
+#listheader {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #0e153a;
+}
+#eventList {
+  color: #0e153a;
+  position: relative;
+  left: 130px;
+  font-family: "Raleway", sans-serif;
+}

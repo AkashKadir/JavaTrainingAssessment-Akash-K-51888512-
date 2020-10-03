@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EVENT BILLING</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="eventDisplay">
+      <h2>Event Billing</h2>
+      <label for="eventId">ID</label>
+      <input id="eventId" name="eventId" type="text" />
+      <a id="eventIdPara"></a>
+      <br />
+      <label for="eventName">Event Name</label>
+      <input id="eventName" name="eventName" type="text" />
+      <a id="eventNamePara"></a>
+      <br />
+      <label for="price">Price</label>
+      <input id="price" name="price" type="number" />
+      <a id="pricePara"></a>
+      <br />
+      <button id="add" onclick="addPrice()">Add to Cart</button>
+    </div>
+    <table id="result">
+      <thead id="tablehead"></thead>
+      <tbody id="tablebody"></tbody>
+    </table>
+    <br /><br />
+    <p id="total"></p>
+  </body>
+</html>

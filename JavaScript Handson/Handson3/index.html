@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EVENTS LIST</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="AddDisplay">
+      <h1>Events List</h1>
+      <label id="label"></label><br />
+      <input id="input" type="text" placeholder="Enter the Events" /><br />
+      <button id="push" onclick="pushElements()">Push</button>
+      <button id="pop" onclick="popElements()">Pop</button>
+      <button id="display" onclick="display()">Display</button>
+      <div id="events"></div>
+    </div>
+    <br />
+    <div id="result">
+      <h3 id="resulth3"></h3>
+      <ul id="eventsList"></ul>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PINK FRAG EVENT ORGANISER</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="Style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="AddDisplay">
+      <h2>PINK FRAG EVENT ORGANISER</h2>
+      <label id="label"></label><br />
+      <input
+        id="eventName"
+        type="text"
+        placeholder="Enter the Event Name"
+      /><br />
+      <button id="add" onclick="addEvent()">ADD EVENT</button>
+      <button id="display" onclick="sort()">DISPLAY EVENT</button><br />
+      <div id="successMessage"></div>
+    </div>
+    <br />
+    <div id="result">
+      <h3 id="listheader"></h3>
+      <ol id="eventList"></ol>
+    </div>
+  </body>
+</html>

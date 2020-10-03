@@ -1,0 +1,117 @@
+body {
+  margin: 0px;
+  background-color: #d9dad7;
+}
+table,
+table tbody tr,
+table thead tr th,
+table tbody tr td {
+  border: 1px solid #c24d2c;
+  border-collapse: collapse;
+  padding: 10px;
+}
+table thead tr th {
+  background-color: #1a2639;
+  color: #c24d2c;
+  font-family: "Montserrat", sans-serif;
+}
+table tbody tr td input {
+  width: 40px;
+  margin-left: 27px;
+}
+table tbody tr td a {
+  margin-left: 60px;
+}
+#eventDisplay {
+  line-height: 40px;
+  border: 1px solid #c24d2c;
+  width: 45%;
+  text-align: center;
+  margin: 0 auto;
+  height: 320px;
+  background-color: #3e4a61;
+  position: relative;
+  top: 80px;
+  box-shadow: 4px 4px 8px #c24d2c;
+}
+#eventDisplay h2 {
+  position: relative;
+  color: #d9dad7;
+  left: 0px;
+  right: 0px;
+  top: 20px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+label {
+  top: 15px;
+  font-size: 14px;
+  right: 35px;
+  color: #d9dad7;
+  position: relative;
+  font-family: "Raleway", sans-serif;
+}
+#eventId,
+#eventName,
+#price {
+  position: relative;
+  margin: 0px auto;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  width: 170px;
+  height: 22px;
+  top: 15px;
+  border-radius: 5px;
+  color: #1a2639;
+}
+#eventId {
+  left: 32px;
+}
+#price {
+  left: 23px;
+}
+#add {
+  position: relative;
+  font-family: "Raleway", sans-serif;
+  padding: 5px;
+  top: 37px;
+  border-radius: 5px;
+  color: #0e153a;
+  width: 100px;
+  left: 3px;
+}
+#eventNamePara {
+  left: 5px;
+  position: relative;
+  color: #c24d2c;
+  top: 15px;
+}
+#eventIdPara {
+  left: 37px;
+  position: relative;
+  color: #c24d2c;
+  top: 15px;
+}
+#pricePara {
+  left: 28px;
+  position: relative;
+  color: #c24d2c;
+  top: 15px;
+}
+table {
+  position: relative;
+  margin: 0px auto;
+  top: 120px;
+  width: 45%;
+}
+#total {
+  position: relative;
+  margin: 0px auto;
+  width: 45%;
+  text-align: center;
+  top: 120px;
+  font-size: 20px;
+  word-spacing: 3px;
+  color: #c24d2c;
+  font-weight: 600;
+}

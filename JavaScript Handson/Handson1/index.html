@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VALIDATING DUPLICATE EVENTS</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="Style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="AddDisplay">
+      <h2>Validating Duplicate Events</h2>
+      <label id="label"></label><br />
+      <input
+        id="eventName"
+        type="text"
+        placeholder="Enter the Event Name"
+      /><br />
+      <button id="addEvent" onclick="addEvent()">ADD EVENT</button>
+      <button id="displayEvent" onclick="displayEvent()">DISPLAY EVENT</button
+      ><br />
+      <div id="successMessage"></div>
+    </div>
+    <br />
+    <table id="resultTable">
+      <thead>
+        <tr>
+          <th id="tableHeader"></th>
+        </tr>
+      </thead>
+      <tbody id="resultBody"></tbody>
+    </table>
+  </body>
+</html>
