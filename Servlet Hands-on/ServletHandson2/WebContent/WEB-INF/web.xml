@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>ServletHandson2</display-name>
+  <servlet>
+    <servlet-name>Index</servlet-name>
+    <servlet-class>org.popularparadise.Index</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Index</servlet-name>
+    <url-pattern>/Index</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Exhibition</servlet-name>
+    <servlet-class>org.popularparadise.Exhibition</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Exhibition</servlet-name>
+    <url-pattern>/Exhibition</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>StageShow</servlet-name>
+    <servlet-class>org.popularparadise.StageShow</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StageShow</servlet-name>
+    <url-pattern>/StageShow</url-pattern>
+  </servlet-mapping>
+</web-app>
