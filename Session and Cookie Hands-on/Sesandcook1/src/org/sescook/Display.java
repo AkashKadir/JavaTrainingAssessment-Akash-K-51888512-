@@ -19,6 +19,7 @@ public class Display extends HttpServlet {
 		HttpSession session = req.getSession();
 		pw.println("<h1>Event Management System</h1>");
 		pw.println("<div>Event "+session.getAttribute("eventname")+" is planned to held on 2018-09-05 in Rudolfinum</div>");
+		pw.close();
 	}
 
 }
