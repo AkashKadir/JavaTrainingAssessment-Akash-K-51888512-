@@ -24,8 +24,8 @@ public class Display extends HttpServlet {
 		Enumeration<String> eventNames = context.getInitParameterNames();
 		while(eventNames.hasMoreElements()) {
 			String eventCheck = (String) eventNames.nextElement();
-			if((!eventCheck.equals("EI Paso nightlife Cost"))&&(!eventCheck.equals("Plaza Classic Film Festival Cost"))) {
-				pw.println("<tr><td>"+eventCheck+"</td><td>"+context.getInitParameter(eventCheck)+"</td><td>"+context.getInitParameter(eventCheck+" Cost")+"</tr>");
+			if(!(eventCheck.substring(eventCheck.length()-4).equals("Cost"))) {
+				pw.println("<tr><td>"+eventCheck+"</td><td>"+context.getInitParameter(eventCheck)+"</td><td>"+context.getInitParameter(eventCheck+" Cost")+"</td></tr>");
 			}
 		}
 		pw.close();
