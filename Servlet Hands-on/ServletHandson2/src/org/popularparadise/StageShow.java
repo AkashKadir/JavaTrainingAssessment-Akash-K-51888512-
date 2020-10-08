@@ -24,6 +24,7 @@ public class StageShow extends HttpServlet {
 		printWriter.println("<tr><td>Start Time</td><td>10:00:00</td></tr>");
 		printWriter.println("<tr><td>End Time</td><td>12:00:00</td></tr>");
 		printWriter.println("</table>");
+		printWriter.close();
 	}
 
 }
