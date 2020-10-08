@@ -23,6 +23,7 @@ public class Display extends HttpServlet {
 		printWriter.println("<tr><td>Email</td><td>"+request.getParameter("email")+"</td></tr>");
 		printWriter.println("<tr><td>City</td><td>"+request.getParameter("city")+"</td></tr>");
 		printWriter.println("</table>");
+		printWriter.close();
 	}
 
 }
