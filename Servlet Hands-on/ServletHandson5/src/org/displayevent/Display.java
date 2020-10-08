@@ -28,6 +28,7 @@ public class Display extends HttpServlet {
 				pw.println("<tr><td>"+eventCheck+"</td><td>"+context.getInitParameter(eventCheck)+"</td><td>"+context.getInitParameter(eventCheck+" Cost")+"</tr>");
 			}
 		}
+		pw.close();
 	}
 
 }
