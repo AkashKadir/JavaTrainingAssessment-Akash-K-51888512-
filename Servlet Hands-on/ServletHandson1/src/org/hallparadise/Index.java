@@ -22,6 +22,7 @@ public class Index extends HttpServlet {
 		printWriter.println("<p>The type of events are</p>");
 		printWriter.println("<ul><li>Exhibition</li>");
 		printWriter.println("<li>Stage Show</li></ul>");
+		printWriter.close();
 	}
 
 }
