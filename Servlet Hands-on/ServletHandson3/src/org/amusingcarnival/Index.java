@@ -24,6 +24,7 @@ public class Index extends HttpServlet {
 		printWriter.println("City : <input type=\"text\" name=\"city\"><br />");
 		printWriter.println("<input type=\"submit\" value=\"submit\" id=\"submit\">");
 		printWriter.println("</form>");
+		printWriter.close();
 	}
 
 }
