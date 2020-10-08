@@ -19,6 +19,7 @@ public class Index extends HttpServlet {
 		printWriter.println("<h1 style=\"color:#007e00;\">Welcome to Popular Paradise</h1>");
 		printWriter.println("<a href=\"./Exhibition\">Exhibition</a><br/>");
 		printWriter.println("<a href=\"./StageShow\">Stage Show</a>");
+		printWriter.close();
 	}
 
 }
