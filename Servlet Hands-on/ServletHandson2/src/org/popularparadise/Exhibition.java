@@ -23,6 +23,7 @@ public class Exhibition extends HttpServlet {
 		printWriter.println("<tr><td>Start Date</td><td>10-10-2020</td></tr>");
 		printWriter.println("<tr><td>End Date</td><td>10-10-2030</td></tr>");
 		printWriter.println("</table>");
+		printWriter.close();
 	}
 
 }
