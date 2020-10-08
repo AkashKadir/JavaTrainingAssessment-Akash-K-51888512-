@@ -24,7 +24,7 @@ public class Display extends HttpServlet {
 			pw.println("<tr><td>"+cookieNames[i]+"</td><td>"+cookie[i].getValue()+"</td></tr>");
 		}
 		pw.println("</table>");
-		
+		pw.close();
 	}
 
 }
