@@ -17,7 +17,18 @@ public class Index extends HttpServlet {
 		PrintWriter pw = res.getWriter();
 		pw.println("<h1>Search Event</h1>");
 		pw.println("<form action=\"./Display\" method=\"POST\">");
-		pw.println("Enter Date <input type=\"text\" name=\"date\">");
+		pw.println("Enter Date <input type=\"text\" name=\"date\"><br />");
+		pw.println("<input type=\"submit\" id=\"search\" value=\"Search\">");
+		pw.println("</form>");
+		pw.close();
+	}
+	
+	protected void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+		res.setContentType("text/html");
+		PrintWriter pw = res.getWriter();
+		pw.println("<h1>Search Event</h1>");
+		pw.println("<form action=\"./Display\" method=\"POST\">");
+		pw.println("Enter Date <input type=\"text\" name=\"date\"><br />");
 		pw.println("<input type=\"submit\" id=\"search\" value=\"Search\">");
 		pw.println("</form>");
 		pw.close();
