@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
   <display-name>ServletHandson5</display-name>
-  <context-param>
-		<param-name>EI Paso nightlife</param-name>
-		<param-value>The Walt Disney Concert Hall</param-value>
-	</context-param>
-
+	
 	<context-param>
-		<param-name>Plaza Classic Film Festival</param-name>
-		<param-value>The Oslo Opera House</param-value>
+		<param-name>11-05-2020</param-name>
+		<param-value>EI Paso nightlife,The Walt Disney Concert Hall,100/Plaza Classic Film Festival,The Oslo Opera House,400</param-value>
 	</context-param>
-
+	
 	<context-param>
-		<param-name>EI Paso nightlife Cost</param-name>
-		<param-value>100</param-value>
+		<param-name>19-05-2020</param-name>
+		<param-value>SMART ICON,CSE Department,500/MECONS,Mechanical Department,700</param-value>
 	</context-param>
-
+	
 	<context-param>
-		<param-name>Plaza Classic Film Festival Cost</param-name>
-		<param-value>400</param-value>
+		<param-name>12-06-1999</param-name>
+		<param-value>ENC INFO,ECE Department,200/PECOFES,Pondicherry Technological University,900</param-value>
 	</context-param>
 
 </web-app>
