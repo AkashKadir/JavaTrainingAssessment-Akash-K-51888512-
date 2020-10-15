@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="address" class="org.handson8.Address">
+		<property name="line1" value="2/115 Anna Nagar" />
+		<property name="line2" value="Kaveripattinam" />
+		<property name="city" value="Krishnagiri" />
+		<property name="pincode" value="635112" />
+	</bean>
+
+	<bean id="employee" class="org.handson8.Employee"  autowire="byName">
+		<property name="employeeName" value="Sathish" />
+		<property name="employeeMobileNumber" value="9566259957"/>
+		<property name="employeeSalary" value="45000" />
+		<property name="employeeEmail" value="me@gmail.com" />
+	</bean>
+	
+</beans>

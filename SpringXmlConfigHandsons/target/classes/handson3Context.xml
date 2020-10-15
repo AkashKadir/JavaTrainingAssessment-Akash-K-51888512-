@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="course1" class="org.handson3.Course">
+		<property name="name" value="Java"/>
+		<property name="mentor" value="Sathish"/>
+		<property name="fee" value="1000"/>
+	</bean>
+	<bean id="course2" class="org.handson3.Course">
+		<property name="name" value="Selenium"/>
+		<property name="mentor" value="Kanimozhi"/>
+		<property name="fee" value="2000"/>
+	</bean>
+	<bean id="course3" class="org.handson3.Course">
+		<property name="name" value="Python"/>
+		<property name="mentor" value="Arun"/>
+		<property name="fee" value="500"/>
+	</bean>
+</beans>
