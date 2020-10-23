@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Oct 20, 2020 4:22:49 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="org.hcl.Controllers.Company" table="COMPANY" discriminator-value="Company" >
+        <id name="Id" type="int">
+            <column name="ID" />
+            <generator class="increment" />
+        </id>
+        <discriminator column="Type" type="string"></discriminator>
+        <property name="FirstName" type="java.lang.String">
+            <column name="FIRSTNAME" />
+        </property>
+        <property name="LastName" type="java.lang.String">
+            <column name="LASTNAME" />
+        </property>
+        <property name="SapId" type="java.lang.String">
+            <column name="SAPID" />
+        </property>
+        <property name="Bonus" type="long">
+            <column name="BONUS" />
+        </property>
+        <property name="Salary" type="double">
+            <column name="SALARY" />
+        </property>
+        
+        <subclass discriminator-value="Employee" name="org.hcl.Controllers.Employee">
+        	<property name="exp" column="EXP"/>
+        </subclass>
+        <subclass name="org.hcl.Controllers.Manager" discriminator-value="Manager">
+        	<property name="exp" column="EXP"/>
+        	<property name="Project"/>
+        </subclass>
+        <subclass name="org.hcl.Controllers.ProjectLead" discriminator-value="Lead">
+        	<property name="exp" column="EXP"/>
+        	<property name="Project"/>
+        </subclass>
+    </class>
+</hibernate-mapping>
