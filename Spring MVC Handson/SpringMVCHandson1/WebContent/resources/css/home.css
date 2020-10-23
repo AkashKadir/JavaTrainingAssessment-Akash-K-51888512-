@@ -1,0 +1,48 @@
+@charset "ISO-8859-1";
+body{
+	margin:0px;
+}
+header{
+	display: block;
+	height:120px;
+	font-family: 'Krona One', sans-serif;
+	background-color: #a1eafb;
+	
+}
+header a{
+	color:black;
+	text-decoration: none;
+	position:relative;
+	font-weight: bold;
+	top:-45%;
+	font-size:
+}
+header img{
+	height:74%;
+	width:9%;
+	margin:8px;
+	padding:6px;
+}
+nav{
+	float:right;
+}
+nav a{
+	margin:2px;
+	text-decoration: none;
+	color: white;
+	position:relative;
+	box-shadow: #002651 1px 1px 3px 3px;
+	top:10px;
+	padding:5px;
+	background-color:#002651;
+}
+#content{
+	width:100%;
+	border:2px solid black;
+	position:relative;
+	top:40px;
+}
+.boxed{
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+}
